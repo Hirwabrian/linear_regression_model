@@ -6,7 +6,7 @@ This project uses data-driven modeling to explore how socio-economic status, gen
 
 ---
 
-## 📦 Why Zimbabwe (2014 MICS) Was Chosen
+## Why Zimbabwe (2014 MICS) Was Chosen
 
 The **Zimbabwe Multiple Indicator Cluster Survey (MICS) 2014** was selected as a case study for the following reasons:
 
