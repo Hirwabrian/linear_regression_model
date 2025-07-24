@@ -1,24 +1,30 @@
 ## Mission
+To investigate how economic and spatial hierarchies shape secondary school completion among girls in African countries — exposing how regional underdevelopment, rural disadvantage, and structural poverty persist as entrenched barriers to educational justice.
 
-**To examine how economic and spatial hierarchies continue to shape access to secondary education in African countries and exposing how regional underdevelopment, gendered inequalities, and structural poverty remain entrenched barriers to educational justice.**
-
-This project uses data-driven modeling to explore how socio-economic status, gender, and geography affect access to secondary education with a focus on identifying patterns of exclusion that persist despite overall national progress.
-
----
+This project applies data-driven modeling to understand which socio-economic and geographic factors most strongly influence the probability of completing secondary school. While education access has improved nationally in many African contexts, this analysis focuses on those who remain excluded despite this progress — aiming to surface the hidden patterns of marginalization that disproportionately affect girls in under-resourced regions.
 
 ## Why Zimbabwe (2014 MICS) Was Chosen
+The Zimbabwe Multiple Indicator Cluster Survey (MICS) 2014 was selected as a case study for the following reasons:
 
-The **Zimbabwe Multiple Indicator Cluster Survey (MICS) 2014** was selected as a case study for the following reasons:
+✅ Nationally representative and produced by UNICEF using internationally comparable standards.
 
-***Nationally representative data** with rich education indicators (attendance, attainment, dropout)
-* Includes key predictors aligned with our mission:
+✅ Provides rich education-related indicators: attendance, completion, and attainment.
 
-  * **Wealth index** for structural poverty
-  * **Urban/rural residence** for spatial exclusion
-  * **Sex and age** for gendered analysis
-* **Subnational granularity** — allows disaggregation by province/region, enabling spatial inequality modeling
-* Comes with **standardized survey weights**, ensuring statistical robustness
-* Produced by **UNICEF** using international standards, ensuring reliability and comparability across African contexts
+✅ Includes key variables aligned with the mission:
 
-> While the study focuses on Zimbabwe, it is framed as a **representative case of broader structural challenges** in African education systems. The findings are not meant to generalize all contexts but to illuminate recurring patterns of marginalization grounded in economic and spatial hierarchies.
-> Due to the structure of the survey, this analysis focuses on female respondents. As such, it sheds light on how poverty, geography, and other structural barriers affect girls' access to education, a critical issue in many African countries.
+Wealth quintile (windex5) as a proxy for structural poverty.
+
+Urban/rural residence (HH6) to capture spatial inequality.
+
+Subnational region (HH7) to explore geographic variation in opportunity.
+
+Age (HL7) and gender (HL4) to account for demographic disparities.
+
+✅ Enables regional analysis with statistically weighted survey responses.
+
+Note on Scope:
+Due to the structure of the dataset, nearly all respondents with complete education data in the relevant age group are female. As a result, this project focuses specifically on girls’ educational outcomes — a framing that aligns with known gender disparities in access across sub-Saharan Africa. Rather than limiting the analysis, this provides an opportunity to critically examine how economic and spatial inequalities intersect with gender to shape life chances.
+
+Note on Target Imbalance:
+While the majority of respondents in this sample have completed secondary school, a significant portion have not. The model is designed to analyze this divergence — surfacing which features most predict exclusion in a context of increasing, but uneven, educational attainment.
+
