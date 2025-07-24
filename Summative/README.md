@@ -21,3 +21,4 @@ The **Zimbabwe Multiple Indicator Cluster Survey (MICS) 2014** was selected as a
 * Produced by **UNICEF** using international standards, ensuring reliability and comparability across African contexts
 
 > While the study focuses on Zimbabwe, it is framed as a **representative case of broader structural challenges** in African education systems. The findings are not meant to generalize all contexts but to illuminate recurring patterns of marginalization grounded in economic and spatial hierarchies.
+> Due to the structure of the survey, this analysis focuses on female respondents. As such, it sheds light on how poverty, geography, and other structural barriers affect girls' access to education, a critical issue in many African countries.
