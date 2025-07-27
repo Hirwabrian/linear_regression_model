@@ -1,7 +1,6 @@
 # linear_regression_model
-* GitHub Repo: \[Insert your repo link here]
 * Hosted API (Swagger): [https://school-completion-prediction-lwfu.onrender.com/docs](https://school-completion-prediction-lwfu.onrender.com/docs)
-* Video Demo (5 mins): \[Insert YouTube or Google Drive link here]
+* Video Demo (5 mins): [https://www.youtube.com/watch?v=29a8fJT36eU](https://www.youtube.com/watch?v=29a8fJT36eU)
 # Predicting Secondary School Completion
 
 ## Mission
@@ -102,27 +101,6 @@ Includes:
 * Prediction output is a probability between 0 and 1 — optionally displayed as a percentage
 
 ---
-
-## 📁 Repository Structure
-
-```
-linear_regression_model/
-└── summative/
-    ├── linear_regression/
-    │   ├── Summative.ipynb            ← Modeling notebook
-    │   ├── best_model.joblib          ← Final model
-    │   ├── scaler.joblib              ← Standardizer
-    ├── API/
-    │   ├── prediction.py              ← FastAPI app
-    │   ├── requirements.txt
-    ├── prediction_app/
-    │   ├── lib/
-    │   │   ├── main.dart              ← App entry
-    │   │   ├── pages/
-    │   │   ├── widgets/
----
-Absolutely! Here's a polished, step-by-step section you can include at the bottom of your `README.md` under:
-
 ---
 
 ## How to Run the Mobile App
@@ -179,9 +157,27 @@ flutter run
 
 ---
 
-### ⚠️ Notes
+### ⚠Notes
 
 * If the app seems unresponsive after clicking “Predict,” it’s likely waiting for the Render API to wake up. Give it 30–60 seconds.
 * Be sure your internet connection is stable to allow the app to reach the external API.
 
+---
 
+## Repository Structure
+
+```
+linear_regression_model/
+└── summative/
+    ├── linear_regression/
+    │   ├── Summative.ipynb            ← Modeling notebook
+    │   ├── best_model.joblib          ← Final model
+    │   ├── scaler.joblib              ← Standardizer
+    ├── API/
+    │   ├── prediction.py              ← FastAPI app
+    │   ├── requirements.txt
+    ├── prediction_app/
+    │   ├── lib/
+    │   │   ├── main.dart              ← App entry
+    │   │   ├── pages/
+    │   │   ├── widgets/
