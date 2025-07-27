@@ -5,7 +5,7 @@
 
 ## Mission
 
-**To investigate how economic and spatial hierarchies shape secondary school completion among girls in African countries and exposing how regional underdevelopment, rural disadvantage, and structural poverty persist as entrenched barriers to educational justice.**
+**To investigate how economic and spatial hierarchies shape secondary school completion among girls in African countries and expose how regional underdevelopment, rural disadvantage, and structural poverty persist as entrenched barriers to educational justice.**
 
 This project applies a data-driven approach to examine which factors most strongly predict whether a young person, particularly girls, completes secondary education. While national education access has improved in many African contexts, we focus on those **still left behind** surfacing the **structural inequalities** hidden beneath aggregate progress.
 
@@ -98,7 +98,7 @@ Includes:
 
 * Inputs are validated via both FastAPI and Flutter UI
 * Only female data was used to train the model → predictions for `sex=0` (male) are extrapolated and may be less reliable
-* Prediction output is a probability between 0 and 1 — optionally displayed as a percentage
+* Prediction output is a probability between 0 and 1, optionally displayed as a percentage
 
 ---
 ---
@@ -117,8 +117,8 @@ Includes:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/linear_regression_model.git
-cd linear_regression_model/summative/FlutterApp
+git clone https://github.com/Hirwabrian/linear_regression_model.git
+cd linear_regression_model/summative/prediction_app
 ```
 
 ---
