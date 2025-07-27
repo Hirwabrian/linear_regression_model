@@ -65,7 +65,7 @@ We selected **Linear Regression** for final deployment because:
 
 A FastAPI service exposes the trained model as a RESTful API for integration with mobile apps or external systems.
 
-* 📦 Frameworks: `FastAPI`, `Pydantic`, `Uvicorn`, `joblib`
+* Frameworks: `FastAPI`, `Pydantic`, `Uvicorn`, `joblib`
 * POST endpoint: `/predict`
 * Returns: probability of school completion (range: 0–1)
 * Validates data types and value ranges
