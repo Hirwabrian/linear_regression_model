@@ -119,3 +119,67 @@ linear_regression_model/
     │   │   ├── widgets/
 
 ---
+Absolutely! Here's a polished, step-by-step section you can include at the bottom of your `README.md` under:
+
+---
+
+## How to Run the Mobile App
+
+### Requirements
+
+* Flutter SDK (version ≥ 3.x)
+* Android Studio or VS Code with Flutter/Dart plugins
+* An Android emulator or a physical Android device (for testing)
+* Internet access (to reach the deployed API)
+
+---
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/linear_regression_model.git
+cd linear_regression_model/summative/FlutterApp
+```
+
+---
+
+### ⚙2. Install dependencies
+
+Make sure you’re inside the `FlutterApp/` folder, then run:
+
+```bash
+flutter pub get
+```
+
+---
+
+### 3. Run the app on an emulator or device
+
+Start an Android emulator or connect your device, then run:
+
+```bash
+flutter run
+```
+
+---
+
+### 4. App behavior
+
+* The app sends data (age, sex, region, etc.) to the **FastAPI model** hosted at:
+
+  > `https://school-completion-prediction-lwfu.onrender.com/predict`
+
+* You’ll see a themed **loading screen** while the server wakes up (Render free-tier).
+
+* After prediction, a result page displays the **completion probability**.
+
+* Errors or offline status will be handled and displayed clearly.
+
+---
+
+### ⚠️ Notes
+
+* If the app seems unresponsive after clicking “Predict,” it’s likely waiting for the Render API to wake up. Give it 30–60 seconds.
+* Be sure your internet connection is stable to allow the app to reach the external API.
+
+
