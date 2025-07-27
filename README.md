@@ -118,7 +118,7 @@ Includes:
 
 ```bash
 git clone https://github.com/Hirwabrian/linear_regression_model.git
-cd linear_regression_model/summative/prediction_app
+cd linear_regression_model/summative/linear_regression/prediction_app
 ```
 
 ---
