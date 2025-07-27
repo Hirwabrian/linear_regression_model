@@ -1,4 +1,7 @@
 # linear_regression_model
+* GitHub Repo: \[Insert your repo link here]
+* Hosted API (Swagger): [https://school-completion-prediction-lwfu.onrender.com/docs](https://school-completion-prediction-lwfu.onrender.com/docs)
+* Video Demo (5 mins): \[Insert YouTube or Google Drive link here]
 # Predicting Secondary School Completion
 
 ## Mission
@@ -116,9 +119,3 @@ linear_regression_model/
     │   │   ├── widgets/
 
 ---
-
-## Submission Links
-
-* GitHub Repo: \[Insert your repo link here]
-* Hosted API (Swagger): [https://school-completion-prediction-lwfu.onrender.com/docs](https://school-completion-prediction-lwfu.onrender.com/docs)
-* Video Demo (5 mins): \[Insert YouTube or Google Drive link here]
