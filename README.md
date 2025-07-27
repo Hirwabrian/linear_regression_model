@@ -107,17 +107,19 @@ Includes:
 
 ```
 linear_regression_model/
+└── summative/
+    ├── linear_regression/
     │   ├── Summative.ipynb            ← Modeling notebook
     │   ├── best_model.joblib          ← Final model
     │   ├── scaler.joblib              ← Standardizer
+    ├── API/
     │   ├── prediction.py              ← FastAPI app
     │   ├── requirements.txt
-    ├── FlutterApp/
+    ├── prediction_app/
     │   ├── lib/
     │   │   ├── main.dart              ← App entry
     │   │   ├── pages/
     │   │   ├── widgets/
-
 ---
 Absolutely! Here's a polished, step-by-step section you can include at the bottom of your `README.md` under:
 
