@@ -157,7 +157,7 @@ flutter run
 
 ---
 
-### ⚠Notes
+### Notes
 
 * If the app seems unresponsive after clicking “Predict,” it’s likely waiting for the Render API to wake up. Give it 30–60 seconds.
 * Be sure your internet connection is stable to allow the app to reach the external API.
